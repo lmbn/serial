@@ -1,0 +1,14 @@
+name: serial-test4
+version: 0
+vendor: none <none@none.com>
+binaries:
+  serial:
+    exec: ./bin/serial
+summary: serial communication
+description: serial communication
+icon: icon.png
+
+parts:
+  serialdev:
+    plugin: python2
+    source: serial.py
